@@ -6,7 +6,6 @@ app.use(bodyParser.json())
 import sqlfun from './pgsql';
 import { generateToken, verifyToken } from './security/token';
 
-
 const cookieParser = require('cookie-parser');
 app.use(cookieParser());
 

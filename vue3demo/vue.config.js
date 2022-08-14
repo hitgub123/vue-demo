@@ -28,7 +28,8 @@ module.exports = defineConfig({
            "crypto": require.resolve("crypto-browserify"),
            "stream": require.resolve("stream-browserify"),
            "util": require.resolve("util")
-         }
+         },
+         extensions: ['.ts', '.tsx', '.js']
        }
      }
 })
