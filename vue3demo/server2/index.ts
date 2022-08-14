@@ -1,4 +1,4 @@
-//1.先安装express 和 express-session（自行安装）
+//1.先安装express 和 express-session（自行安装），不要带@types/
 //2在app.js(你需要运行的node文件)中导入
 const express = require('express')
 const session = require('express-session')
