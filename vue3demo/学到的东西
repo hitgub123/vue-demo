@@ -18,7 +18,7 @@ style scoped的作用:
 报错doesnot work properly without JavaScript enabled when serving a Vue App
 >>src\router\index.ts的最外层的path要以'/'开头，原因不明
 
-.a:not(.b) {width: 200px;}表示className包含a不包含b，比如可用于是否active
+.a:not(.b) {width: 200px;}表示className包含a不包含b，比如可用于是否active 
 
 :class="{ a: b }"表示b为true则className里加上a，否则不加。也可使用:class="{ a: !b }"
 
